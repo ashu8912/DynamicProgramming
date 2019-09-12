@@ -42,6 +42,7 @@ void merge(int* arr,int p,int q,int r){
        arr[i]=newArray[temp];
        temp++;
      }
+     delete[] newArray;
 }
 
 void mergeSort(int *arr,int start,int end){
